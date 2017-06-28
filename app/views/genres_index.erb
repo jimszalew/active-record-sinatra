@@ -3,6 +3,6 @@
   <% @genres.each do |genre| %>
     <h3><%= genre.name %></h3>
     <% genre.films.each do |film| %>
-      <h3><%= film.title %></h3>
+      <p><%= film.title %></p>
     <% end %>
   <% end %>
