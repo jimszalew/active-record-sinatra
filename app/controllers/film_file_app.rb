@@ -6,6 +6,6 @@ class FilmFile < Sinatra::Base
 
   get '/genres' do
     @genres = Genre.all
-    erb :"genres/index"
+    erb :genres_index
   end
 end
